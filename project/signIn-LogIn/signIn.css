@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --green: #27ae60;
+  --black: #2c2c54;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+.center{
+  padding: 1.8rem;
+  background-color: #fff;
+  width: 700px;
+  display: flex;
+  border-radius: 21px;
+  position: relative;
+}
+
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: -22px;
+  right: -29px;
+}
+
+.close-btn i {
+  font-size: 2rem;
+}
+
+.center .left-side{
+  padding-right: 1.8rem;
+  width: 50%;
+  border-right: 2px solid gray;
+}
+
+.center .left-side  .header .logo{
+  cursor: pointer;
+}
+
+.center .left-side  .header .logo h3{
+  font-size: 1.9rem;
+  color: var(--green);
+}
+
+span{
+  color: var(--black);
+}
+
+.center .left-side .content{
+  margin-top: 2rem;
+}
+
+ h3{
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.center .left-side .content p{
+  padding-top: 5px;
+  font-size: 1vw;
+  color: #8a8787;
+}
+
+.center .left-side .image{
+  width: 100%;
+}
+
+.center .left-side img{
+  width: 100%;
+}
+
+
+.center .signIn-form{
+  width: 50%;
+  padding-left: 1.8rem;
+}
+
+form{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  /* padding-top: 10px; */
+}
+
+form .data-field {
+  margin-top: .5rem;
+}
+
+form .data-field :nth-child(1) {
+  margin-top: 0;
+}
+
+form .data-field .name{
+  display: flex;
+  gap: 10px;
+}
+
+form .data-field input[type="text"],
+[type="email"],
+[type="password"]{
+  width: 100%;
+  height: 35px;
+  outline: none;
+  border: 1px solid #8a8787;
+  border-radius: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+form .data-field label{
+  color: #8a8787;
+  font-size: 13px;
+}
+
+.formBtn{
+  background-color: var(--green);
+  text-align: center;
+  color: #fff;
+  margin-top: 5.5rem;
+  padding: 8px 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.formBtn:hover{
+  background-color: var(--black);
+}
+
+.formLink{
+  margin-top: 1rem;
+}
+
+.formLink p{
+  color: var(--black);
+}
+
+.formLink a:hover{
+  text-decoration: underline;
+}

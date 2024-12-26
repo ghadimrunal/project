@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --green: #27ae60;
+  --black: #2c2c54;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+.navbar .menu ul li a.active-1 {
+  background-color: var(--green);
+  color: #fff;
+ }
+
+
+.center{
+  background-color: #fff;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+.center .heading{
+  text-align: center;
+  padding: 1rem 0px;
+  border-bottom: 1px solid gray;
+}
+
+.center .heading  h3{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.center .heading  span{
+  color: #8a8787;
+}
+
+form{
+   padding: 1.5rem;
+}
+
+form .data-field {
+  margin-top: 1rem;
+}
+
+form .data-field .name{
+  display: flex;
+  gap: 10px;
+}
+
+form .data-field input[type="text"],
+[type="email"],
+[type="password"],
+[type="address"]{
+  width: 100%;
+  height: 35px;
+  outline: none;
+  border: 1px solid #8a8787;
+  border-radius: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+.btn{
+  background-color: var(--green);
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 8px 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.btn:hover{
+  background-color: var(--black);
+}
+
+
+.sign-up-with{
+  margin-top: 2rem;
+}
+.sign-up-with h2 {
+  font-size: 1rem;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #ddd; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  font-weight: 300;
+} 
+
+.sign-up-with h2 span { 
+  color: #8a8787;
+   background:#fff; 
+   padding:0 10px; 
+}
+
+.signUp-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.signUp-links .link-1{
+  cursor: pointer;
+  width: 30px;
+   height: 30px;
+  /* background-color: red; */
+}
+
+.signUp-links .link-1 img{
+   width: 100%;
+   height: 100%;
+}
+
+.log-in-link{
+   /* background-color: red; */
+   text-align: center;
+   margin-top: .5rem;
+   font-size: 1.1rem;
+  }
+  
+  .log-in-link a{
+  color: var(--black);
+}
+
+.log-in-link a:hover{
+  text-decoration: underline;
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media(max-width:1200px){
+
+   
+}
+
+@media(max-width:991px){
+
+ 
+  
+
+
+}
+
+@media(max-width:768px){
+
+    .center{
+      /* width: 600px; */
+    }
+
+}
+
+@media(max-width:684px){
+
+  .center{
+
+    /* background-color: transparent; */
+  }
+  .center .left-side{
+    display: none;
+  }
+
+  .center .signUp-form{
+    background-color: #fff;
+  }
+
+}
+
+@media(max-width:490px){
+  .center{
+    width: 350px;
+  }
+}
+
+@media(max-width:390px){
+  .center{
+    width: 300px;
+  }
+}
