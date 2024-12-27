@@ -15,12 +15,19 @@
     scroll-behavior: smooth;
   }
 
+  .category_content ul li .box {
+    width: 225px;
+  }
+
   .products-container {
     grid-template-columns: repeat(
       auto-fit,
       minmax(263px, 1fr)
     ); /* 3 columns for medium screens */
   }
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -33,12 +40,12 @@
     padding: 2rem;
   }
 
-  .category .box {
-    width: 207px;
+  .category_content ul li .box {
+    width: 210px;
   }
 
-  .deal .deal-content .count-down .box {
-    width: 7rem;
+  .deal{
+    gap: 5.5rem;
   }
 
   .products-container {
@@ -124,8 +131,8 @@
     font-size: 1rem;
   }
 
-  .category .box {
-    width: 209px;
+  .category_content ul li .box {
+    width: 212px;
   }
 
   .deal .deal-content {
