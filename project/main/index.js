@@ -28,7 +28,7 @@ window.onscroll = () => {
 
 // deal start
 
-// let countDate = new Date("september 23, 2025 00:00:00").getTime();
+let countDate = new Date("september 23, 2025 00:00:00").getTime();
 
 function CountDown() {
   let now = new Date().getTime();
