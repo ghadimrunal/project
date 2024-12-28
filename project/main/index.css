@@ -593,11 +593,9 @@ button{
   font-weight: 500;
   margin: 0 0 5px;
   color: #161925;
-
   display: -webkit-box; /* For webkit-based browsers */
   -webkit-line-clamp: 2; /* Limit to 2 lines */
   -webkit-box-orient: vertical; /* Vertical orientation for the box */
-
   /* text-align: center; */
   white-space: normal; /* Prevents text from wrapping to the next line */
   overflow: hidden; /* Ensures content outside the container is hidden */
