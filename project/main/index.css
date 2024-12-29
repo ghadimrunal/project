@@ -631,17 +631,17 @@ button{
   background-color: #f3f9f5;
 }
 
-.cartButn .fa-basket-shopping {
-  /* position: absolute;
+/* .cartButn .fa-basket-shopping {
+  position: absolute;
   left: 30px;
-  bottom: 10px; */
-}
+  bottom: 10px;
+} */
 
-.cartButn span {
-  /* position: absolute;
+/* .cartButn span {
+  position: absolute;
   left: 70px;
-  bottom: 8px; */
-}
+  bottom: 8px;
+} */
 
 .cartButn:hover {
   background-color: var(--green);

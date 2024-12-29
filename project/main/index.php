@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="index.css" />
 
     <!-- media queries -->
-    <link rel="stylesheet" href="/project/main/media.css" />
+    <link rel="stylesheet" href="media.css" />
 
     <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
     <!-- lightslider -->
     <link
@@ -29,64 +28,16 @@
 
   </head>
   <body>
-    <!-- header section start -->
-    <div class="header" id="header">
-      <!-- <div class="logo">
-          <i class="fas fa-shopping-basket"></i>
-          <h3>MG<span>MART</span></h3>
-        </div> -->
-      <a href="" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
-      <div class="search-box">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Search for products..."
-        />
-        <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-      </div>
-    </div>
-    <!-- header section end -->
 
-    <!-- header-2 section start -->
-    <div class="header-2">
-      <div id="menu-bar" class="fas fa-bars"></div>
+    <?php
+       include '../main/header/header.php';
+    ?>
 
-      <div class="menu">
-        <ul>
-          <li><a href="#home" class="nav-item">home</a></li>
-          <li><a href="#category" class="nav-item">category</a></li>
-          <li><a href="#deal" class="nav-item">deal</a></li>
-          <li><a href="#products" class="nav-item">products</a></li>
-          <li><a href="#contact" class="nav-item">contact</a></li>
-        </ul>
-      </div>
-
-      <div class="icons">
-        <div class="btn cart" id="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
-        <!-- <a href="/project/signIn-LogIn/signUp.html"> -->
-        <div class="btn signUp" id="signUp">
-          <i class="fas fa-user"></i>
-        </div>
-        <!-- </a> -->
-
-        <div class="btn whistle" id="whistle">
-          <i class="fas fa-heart"></i>
-        </div>
-      </div>
-    </div>
-    <!-- header-2 section end -->
-
-    <!-- <div class="container"> -->
 
     <!-- ========== home start ==========-->
     <section class="home" id="home">
       <div class="left">
-        <img src="/project/images/hero.jpg" alt="" />
+        <img src="../images/hero.jpg" alt="vegtable bucket" />
       </div>
       <div class="right">
         <span>fresh and organic</span>
@@ -111,42 +62,42 @@
 
             <li class="item-a">
               <div class="box box2">
-                <img src="/project/images/c2.png" alt="" />
+                <img src="../images/c2.png" alt="" />
                 <p>Snacks & Beverages</p>
               </div>
             </li>
 
             <li class="item-a">
               <div class="box box3">
-                <img src="/project/images/c3.png" alt="" />
+                <img src="../images/c3.png" alt="" />
                 <p>Packaged Food</p>
               </div>
             </li>
 
             <li class="item-a">
               <div class="box box4">
-                <img src="/project/images/c4.png" alt="" />
+                <img src="../images/c4.png" alt="" />
                 <p>Personal & Baby Care</p>
               </div>
             </li>
 
             <li class="item-a">
               <div class="box box5">
-                <img src="/project/images/c5.png" alt="" />
+                <img src="../images/c5.png" alt="" />
                 <p>Staples</p>
               </div>
             </li>
 
             <li class="item-a">
               <div class="box box6">
-                <img src="/project/images/c6.png" alt="" />
+                <img src="../images/c6.png" alt="" />
                 <p>Dairy Products</p>
               </div>
             </li>
 
             <li class="item-a">
               <div class="box box7">
-                <img src="/project/images/c7.png" alt="" />
+                <img src="../images/c7.png" alt="" />
                 <p>Home & Kitchen</p>
               </div>
             </li>
@@ -189,7 +140,7 @@
          <div class="deal-item">
 
           <div class="img">
-            <img src="/project/images/latestProduct-1.webp" alt="">
+            <img src="../images/latestProduct-1.webp" alt="">
           </div>
 
           <div class="daily-content">
@@ -394,7 +345,7 @@
             <h2><span>Or Sign up with</span></h2>
             <div class="signUp-links">
               <div class="link-1">
-                <img src="/project/signIn-LogIn/google-logo.png" alt="" />
+                <img src="../images/google-logo.png" alt="" />
               </div>
             </div>
           </div>
@@ -438,81 +389,9 @@
 
     <!--========== popUp end ==========-->
 
-    <!-- service section start -->
-     <!-- <section class="services">
-      <div class="service">
-        <i class="fas fa-shipping-fast"></i>
-        <h4 class="serviceName">Fastest Delivery</h4>
-        <span>Delivery at your door step</span>
-      </div>
-      <div class="service">
-        <span class="material-symbols-outlined">
-          support_agent
-          </span>
-      </div>
-      <div class="service">
-        <i class="fa fa-award"></i>
-        <h4 class="serviceName">Fastest Delivery</h4>
-        <span>Delivery at your door step</span>
-      </div>
-      <div class="service">
-
-      </div>
-     </section> -->
-    <!-- service section end -->
-
-    <section class="footer">
-      <div class="box-container">
-        <div class="box">
-          <a href="" class="logo"
-            ><i class="fas fa-shopping-basket"></i>groco</a
-          >
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            neque in voluptatem unde.
-          </p>
-          <div class="social-media">
-            <a href="#" class="butn fab fa-facebook-f"></a>
-            <a href="#" class="butn fab fa-twitter"></a>
-            <a href="#" class="butn fab fa-instagram"></a>
-            <a href="#" class="butn fab fa-linkedin"></a>
-          </div>
-        </div>
-
-        <div class="box">
-          <h3>our locations</h3>
-          <ul>
-            <li><a href="#">India</a></li>
-            <li><a href="#">USA</a></li>
-            <li><a href="#">France</a></li>
-            <li><a href="#">Japan</a></li>
-            <li><a href="#">Russia</a></li>
-          </ul>
-        </div>
-
-        <div class="box">
-          <h3>quick links</h3>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#category">Category</a></li>
-            <li><a href="#product">Products</a></li>
-            <li><a href="#deal">Deal</a></li>
-            <li><a href="#contact">Conatct</a></li>
-          </ul>
-        </div>
-
-        <div class="box">
-          <h3>download app</h3>
-          <ul>
-            <li><a href="#">Google play</a></li>
-            <li><a href="#">window xp</a></li>
-            <li><a href="#">app store</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">&copy;copyright reserved</div>
-    </section>
+    <?php
+      include '../main/footer/footer.php';
+    ?>
 
     <!-- ========== JavaScript ========== -->
 
@@ -531,8 +410,7 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <script src="/project/main/dob.js"></script>
-    <script src="/project/main/index.js"></script>
+    <script src="index.js"></script>
     <!-- <script src="/project/main/product.js"></script> -->
 
     <script>

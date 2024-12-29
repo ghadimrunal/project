@@ -6,14 +6,13 @@
     <title>Document</title>
 
     <!-- css link -->
-     <link rel="stylesheet" href="/project/main/footer/footer.css">
+     <link rel="stylesheet" href="../main/footer/footer.css">
 
-    <!-- font awesome -->
-    <link
+     <!-- font awesome -->
+     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-
   </head>
   <body>
     <section class="footer">

@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <!-- css link -->
-    <link rel="stylesheet" href="/project/main/header/header.css" />
+    <link rel="stylesheet" href="../main/header/header.css" />
 
     <!-- font awesome -->
     <link
