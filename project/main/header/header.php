@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    <!-- css link -->
-    <link rel="stylesheet" href="../main/header/header.css" />
-
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- header section start -->
+   <!-- <link rel="stylesheet" href="../main/header/header.css"> -->
+   <!-- header section start -->
     <div class="header" id="header">
-      <!-- <div class="logo">
-        <i class="fas fa-shopping-basket"></i>
-        <h3>MG<span>MART</span></h3>
-      </div> -->
       <a href="" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
       <div class="search-box">
         <input
@@ -51,7 +31,7 @@
 
       <div class="icons">
         <div class="btn cart" id="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fas fa-cart-shopping"></i>
         </div>
 
         <!-- <a href="/project/signIn-LogIn/signUp.html"> -->
@@ -66,5 +46,4 @@
       </div>
     </div>
     <!-- header-2 section end -->
-  </body>
-</html>
+

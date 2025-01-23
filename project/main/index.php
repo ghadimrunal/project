@@ -29,6 +29,7 @@
   </head>
   <body>
 
+   <!-- header -->
     <?php
        include '../main/header/header.php';
     ?>
@@ -386,9 +387,9 @@
         </form>
       </div>
     </div>
-
     <!--========== popUp end ==========-->
 
+    <!-- footer -->
     <?php
       include '../main/footer/footer.php';
     ?>
